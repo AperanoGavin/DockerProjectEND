@@ -1,0 +1,31 @@
+{
+    "name": "categoryProduct",
+    "options": {
+        "display_step_in_url": false,
+        "final_destination": "/offers/beta-categoryproduct/participate"
+    },
+    "steps": {
+        "identity": {
+            "type": "form",
+            "options": {
+                "title": "<h2>Produits </h2>",
+                "display_title": false,
+                "@builder": {
+                    "worker": "extra_form_builder",
+                    "parameters": {
+                        "configuration": {
+                            "extra_category": {
+                                "extra_form_type": "tms_product_category_choice",
+                                "options": {
+                                    "label": "category",
+                                    "customer": "beta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+   
+}

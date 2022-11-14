@@ -1,0 +1,51 @@
+version: '3.1'
+
+
+services:
+
+    app:
+        build: 
+          context: .
+          dockerfile: Dockerfile
+        image: electrackapp
+        container_name : app
+        restart : unless-stopped
+        volumes :
+            -  ./:/var/www
+
+
+    db:
+      image: mariadb:10.3
+      restart: always
+      environment:
+        MYSQL_ROOT_PASSWORD: notSecureChangeMe
+      volumes: 
+        - './.docker/db:/var/lib/mysql'
+
+    phpmyadmin:
+        image: phpmyadmin
+        restart: always
+        ports:
+          - 8088:80
+        environment:
+          - PMA_ARBITRARY=1
+
+
+
+    webserver:
+        build:
+          context: .
+          dockerfile: dockerfileNginx.DOCKERFILE
+        image : nginx
+        container_name : webserver
+        restart : unless-stopped
+        ports :
+            - 80:80
+        volumes :
+            -  ./:/var/www
+            - ./config/nginx/:/etc/nginx/conf.d/
+        depends_on:
+        - app
+
+
+ 

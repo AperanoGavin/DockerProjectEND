@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <label for="idci_step_navigator__data_extra_category" class="required">category</label>
+        <select id="idci_step_navigator__data_extra_category" name="idci_step_navigator[_data][extra_category]">
+            <option value="176">Catégorie 2</option>
+            <option value="142">BeTA</option>
+            
+       
+        </select>
+    </div>
+
+    <select  id="idci_step_navigator__data_extra_product" name="idci_step_navigator[_data][extra_product]">
+        <option value="19772">Carte cadeau 50 €</option>
+        <option value="19771">Surprise Sticker</option>
+    </select>
+
+ 
+
+</body>
+
+</html>
+<script>
+     document.getElementById('idci_step_navigator__data_extra_product').style.display = 'none';
+    const category = document.querySelector('#idci_step_navigator__data_extra_category');
+    const product = document.querySelector('#idci_step_navigator__data_extra_product');
+
+    category.addEventListener('change', function () {
+        if (category.value == '142') {
+            product.style.display = 'block';
+        } else {
+            product.style.display = 'none';
+        }
+  
+    
+    });
+    
+ 
+</script>
