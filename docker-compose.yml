@@ -12,6 +12,15 @@ services:
         restart : unless-stopped
         volumes :
             -  ./:/var/www
+    app_2:
+        build: 
+          context: .
+          dockerfile: Dockerfile
+        image: electrackapp_2
+        container_name : app_2
+        restart : unless-stopped
+        volumes :
+            -  ./:/var/www        
 
 
     db:
@@ -47,5 +56,18 @@ services:
         depends_on:
         - app
 
-
- 
+    webserver_2:
+        build:
+          context: .
+          dockerfile: dockerfileNginx.DOCKERFILE
+        image : nginx
+        container_name : webserver_2
+        restart : unless-stopped
+        ports :
+            - 82:80
+        volumes :
+            -  ./:/var/www
+            - ./config/nginx/:/etc/nginx/conf.d/
+        depends_on:
+        - app_2
+   
