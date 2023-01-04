@@ -1,4 +1,4 @@
-FROM tianon/exim
+FROM tianon/exim4
 
 RUN apt-get update && apt-get install -y exim4
 
