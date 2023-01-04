@@ -71,12 +71,10 @@ services:
         depends_on:
         - app_2
 
-    Mail_server:
+    mail:
         build:
           context: .
-          dockerfile: dockerfileMail.DOCKERFILE
-        image : mailserver
-        container_name : mailserver
+          dockerfile: DockerfileMail.DOCKERFILE
         restart : always
         ports :
             - 25:25
