@@ -17,4 +17,8 @@ USER  www
 
 COPY  --chown=www:www  . /var/www
 
+RUN echo "sendmail_path = /usr/sbin/sendmail -t -i" >> /usr/local/etc/php/php.ini
+RUN echo "SMTP = mymailserver.com" >> /usr/local/etc/php/php.ini
+RUN echo "smtp_port = 25" >> /usr/local/etc/php/php.ini
+
 EXPOSE 9000

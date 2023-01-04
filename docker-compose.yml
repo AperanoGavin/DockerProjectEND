@@ -70,4 +70,17 @@ services:
             - ./config/nginx/:/etc/nginx/conf.d/
         depends_on:
         - app_2
-   
+
+    Mail_server:
+        build:
+          context: .
+          dockerfile: dockerfileMail.DOCKERFILE
+        image : mailserver
+        container_name : mailserver
+        restart : always
+        ports :
+            - 25:25
+         
+           
+
+  
