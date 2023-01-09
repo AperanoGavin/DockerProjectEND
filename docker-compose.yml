@@ -70,15 +70,13 @@ services:
             - ./config/nginx/:/etc/nginx/conf.d/
         depends_on:
         - app_2
-
-    mail:
-        build:
-          context: .
-          dockerfile: DockerfileMail.DOCKERFILE
-        restart : always
-        ports :
-            - 25:25
-         
-           
+ 
+    postfixadmin:
+      image: postfixadmin
+      ports:
+        - 83:80
+      restart: always
+      depends_on:
+        - phpmyadmin
 
   
