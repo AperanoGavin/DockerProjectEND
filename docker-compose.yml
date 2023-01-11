@@ -79,4 +79,11 @@ services:
       depends_on:
         - phpmyadmin
 
+    monitoring:
+       image: bitnami/prometheus  
+       ports:
+         - "9090:9090"
+       volumes:
+         - ./prometheus.yml:/etc/prometheus/prometheus.yml  
+
   
