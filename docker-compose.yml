@@ -70,20 +70,21 @@ services:
             - ./config/nginx/:/etc/nginx/conf.d/
         depends_on:
         - app_2
- 
-    postfixadmin:
-      image: postfixadmin
+
+
+    uptime-kuma:
+        image: louislam/uptime-kuma:1
+        container_name: uptime-kuma
+        volumes:
+           - ./uptime-kuma-data:/app/data
+        ports:
+           - 3001:3001 
+        restart: always   
+
+    mail:
+      image: namshi/smtp
+      environment:
+        - MAIL_USER=user
+        - MAIL_PASS=pass
       ports:
-        - 83:80
-      restart: always
-      depends_on:
-        - phpmyadmin
-
-    monitoring:
-       image: bitnami/prometheus  
-       ports:
-         - "9090:9090"
-       volumes:
-         - ./prometheus.yml:/etc/prometheus/prometheus.yml  
-
-  
+        - "25:25"

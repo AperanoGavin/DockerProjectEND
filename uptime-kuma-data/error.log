@@ -1,0 +1,6 @@
+[2023-01-11 16:45:42] Error: Unable to acquire a connection
+    at Client_SQLite3.acquireConnection (/app/node_modules/knex/lib/client.js:296:13)
+    at Runner.ensureConnection (/app/node_modules/knex/lib/execution/runner.js:259:46)
+    at Runner.run (/app/node_modules/knex/lib/execution/runner.js:30:30)
+    at Builder.Target.then (/app/node_modules/knex/lib/builder-interface-augmenter.js:24:43)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

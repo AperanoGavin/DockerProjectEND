@@ -1,0 +1,4 @@
+MAIL FROM: audesandrine6@gmail.com
+RCPT TO: audesandrine6@icloud.com
+DATA  entrer
+QUIT pour quitter

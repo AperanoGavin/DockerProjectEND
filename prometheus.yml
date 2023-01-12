@@ -11,16 +11,16 @@ scrape_configs:
   - job_name: 'webserver'
     scrape_interval: 5s
     static_configs:
-      - targets: ['web:9100']
+      - targets: ['46.226.107.16:80']
 
 
   - job_name: 'webserver_2'
     scrape_interval: 5s
     static_configs:
-      - targets: ['web:9110']
+      - targets: ['46.226.107.16:82']
 
 
   - job_name: 'db'
     scrape_interval: 5s
     static_configs:
-      - targets: ['db:9104']
+      - targets: ['46.226.107.16:8088']
