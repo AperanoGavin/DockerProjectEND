@@ -8,6 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Server of gavin aperano</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6721551398549890"
+     crossorigin="anonymous"></script>
+     
 </head>
 <body>
     <h1>Hi wrong place</h1>
@@ -20,6 +23,7 @@
 <!--    <li><a href ="http://gavinaperano.com/Vid/RPReplay_Final1658994359-_1_.mp4">ça marche pas</a></li>-->
 
     </ul>
+    
     
 </body>
 </html>
