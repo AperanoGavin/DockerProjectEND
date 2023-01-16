@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  </head>
+  <body>
+    <video id="video1_bbc" controls></video>
+    <video id="video2_tfx" controls></video>
+    <video id="video3_tf1" controls></video>
+    <video id="video4_tiji" controls></video>
+    <script>
+
+      if(Hls.isSupported()) {
+        var video1 = document.getElementById('video1_bbc');
+        var hls1 = new Hls();
+        hls1.loadSource("https://bbceu-bbcdrama-1-fr.samsung.wurl.tv/playlist.m3u8");
+        hls1.attachMedia(video1);
+        hls1.on(Hls.Events.MANIFEST_PARSED,function() {
+          video1.play();
+        });
+
+        var video2 = document.getElementById('video2_tfx');
+        var hls2 = new Hls();
+        hls2.loadSource("https://tfx-hls-live-cdn1.tf1.fr/out/v1/818e38d791854222b71a950791fb7002/index.m3u8");
+        hls2.attachMedia(video2);
+        hls2.on(Hls.Events.MANIFEST_PARSED,function() {
+          video2.play();
+        });
+
+        var video3 = document.getElementById('video3_tf1');
+        var hls3 = new Hls();
+        hls3.loadSource("https://tf1-hls-live-cdn1.tf1.fr/out/v1/c2e382be3aa2486e8753747e7bb6157e/index.m3u8");
+        hls3.attachMedia(video3);
+        hls3.on(Hls.Events.MANIFEST_PARSED,function() {
+          video3.play();
+        });
+
+        var video4 = document.getElementById('video4_tiji');
+        var hls4 = new Hls();
+        hls4.loadSource("https://shls-tiji-tv-prod-dub.shahid.net/out/v1/ee05878a88474f408ff04495d44cc249/index.m3u8");
+        hls4.attachMedia(video4);
+        hls4.on(Hls.Events.MANIFEST_PARSED,function() {
+            video4.play();
+        });
+
+       }
+    </script>
+  </body>
+</html>
