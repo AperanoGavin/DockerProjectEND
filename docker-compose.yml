@@ -66,6 +66,8 @@ services:
         restart : unless-stopped
         ports :
             - 82:80
+            - 444:443
+
         volumes :
             -  ./:/var/www
             - ./config/nginx/:/etc/nginx/conf.d/
@@ -80,6 +82,8 @@ services:
            - ./uptime-kuma-data:/app/data
         ports:
            - 3001:3001 
+           - 445:443
+
         restart: always   
 
     mail:
