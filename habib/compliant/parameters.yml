@@ -1,0 +1,72 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: digifid-mysql
+    database_port: null
+    database_name: complaint_manager
+    database_user: root
+    database_password: toor
+    elasticsearch_host: digifid-elasticsearch-xpack
+    elasticsearch_port: 9200
+    locale: en
+    secret: _secret_to_change
+    application_name: 'Complaint Manager'
+    application_hosted_by: Docker
+    tms_user_context:
+        keycloak_client_id: '%keycloak_client_secret%'
+        keycloak_groups:
+            - 08521953-c800-4a5e-96ce-583363c834e8
+            - ec392927-2475-4faa-8633-ff1629398a96
+    tms_web_admin_template.pagination.max_per_page: 50
+    tms_web_admin_template.pagination.max_per_page_choices:
+        - 10
+        - 20
+        - 50
+        - 100
+        - 200
+        - 500
+    tms_digifid_users:
+        admin:
+            password: $2y$12$xF8dXSDmNXZ4QUruI.y2keb7NNZukA5IpwWulXs9lctRv8VEk1xZ2
+            roles:
+                - ROLE_ADMIN
+    keycloak_realm: digifid
+    keycloak_client_id: complaint-manager
+    keycloak_server_url: 'https://keycloak.tessi-tms.fr/auth'
+    keycloak_client_secret: e08a8b18-3e5f-40f2-be69-351211597be7
+    api.client_source_name: '%keycloak_client_id%'
+    api.security_token: _api_security_token_to_change
+    api.complaint.endpoint_root: 'http://digifid-nginx-complaint-manager/app_dev.php/api'
+    api.digifid.endpoint_root: 'https://web-digifid-app.preprod.digifid.fr/api'
+    api.document.endpoint_root: 'https://document-manager.preprod.digifid.fr/api'
+    api.elasticsearch.endpoint_root: 'http://%elasticsearch_host%:%elasticsearch_port%'
+    api.kibana.endpoint_root: 'http://localhost:5601'
+    api.media.endpoint_root: 'https://media-manager.preprod.digifid.fr/api'
+    api.code.endpoint_root: 'https://code-manager.preprod.digifid.fr/api'
+    api.notification.endpoint_root: 'https://notification-manager.preprod.digifid.fr/api'
+    api.operation.endpoint_root: 'https://operation-manager.preprod.digifid.fr/api'
+    api.order.endpoint_root: 'http://digifid-nginx-order-manager/app_dev.php/api'
+    api.participation.endpoint_root: 'https://participation-manager.preprod.digifid.fr/api'
+    api.pot.endpoint_root: 'http://digifid-nginx-pot-manager/app_dev.php/api'
+    api.sso.endpoint_root: 'http://digifid-nginx-sso-manager/app_dev.php/api'
+
+    payments.logs_dir: /tmp
+    payments.sogenactif_pathfile: /var/www/html/vendor/tms/payment-bundle/Tms/Bundle/PaymentBundle/Resources/sips/atos/bin/param/pathfile.sogenactif
+    payments.scellius_pathfile: /var/www/html/vendor/tms/payment-bundle/Tms/Bundle/PaymentBundle/Resources/sips/atos/bin/param/pathfile.scellius
+    payments.mercanet_keys_path: /var/www/html/vendor/tms/payment-bundle/Tms/Bundle/PaymentBundle/Resources/sips/atos/seal/keys
+    payments.mercanet_web_server: 'payment-webinit.mercanet.bnpparibas.net (payment-webinit.simu.mercanet.bnpparibas.net for dev environement)'
+    payments.paybox_keys_path: /var/www/html/vendor/tms/payment-bundle/Tms/Bundle/PaymentBundle/Resources/sips/paybox/keys
+    payments.paybox_web_servers: '[tpeweb.paybox.com, tpeweb1.paybox.com] ([preprod-tpeweb.paybox.com] for dev environement)'
+    memcache_servers:
+        memcached01:
+            host: digifid-memcached
+            port: 11211
+    monolog.main.action_level: error
+    monolog.syslog.ident: complaint-manager
+    monolog.syslog.facility: local0
+    monolog.syslog.level: debug
+    tms_data_limit_namespace.elasticsearch_index_name: tms_limit
+    tms_complaint.answer.notifier_name: complaint
+    tms_complaint.answer.default_tags:
+        key: context
+        value: savAnswer
