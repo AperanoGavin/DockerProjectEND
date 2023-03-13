@@ -12,9 +12,7 @@ services:
         restart : unless-stopped
         volumes :
             -  ./:/var/www
-      
-
-
+            
     db:
       image: mariadb:10.3
       restart: always

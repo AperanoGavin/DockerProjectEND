@@ -2826,3 +2826,252 @@
   sql: undefined,
   bindings: undefined
 }
+[2023-03-06 02:24:10] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (/app/node_modules/knex/lib/client.js:305:26)
+    at async Runner.ensureConnection (/app/node_modules/knex/lib/execution/runner.js:259:28)
+    at async Runner.run (/app/node_modules/knex/lib/execution/runner.js:30:19)
+    at async RedBeanNode.storeCore (/app/node_modules/redbean-node/dist/redbean-node.js:166:26)
+    at async RedBeanNode.store (/app/node_modules/redbean-node/dist/redbean-node.js:126:20)
+    at async beat (/app/server/model/monitor.js:709:13)
+    at async Timeout.safeBeat [as _onTimeout] (/app/server/model/monitor.js:728:17) {
+  sql: undefined,
+  bindings: undefined
+}
+[2023-03-06 02:24:10] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (/app/node_modules/knex/lib/client.js:305:26)
+    at async Runner.ensureConnection (/app/node_modules/knex/lib/execution/runner.js:259:28)
+    at async Runner.run (/app/node_modules/knex/lib/execution/runner.js:30:19)
+    at async RedBeanNode.storeCore (/app/node_modules/redbean-node/dist/redbean-node.js:166:26)
+    at async RedBeanNode.store (/app/node_modules/redbean-node/dist/redbean-node.js:126:20)
+    at async beat (/app/server/model/monitor.js:709:13)
+    at async Timeout.safeBeat [as _onTimeout] (/app/server/model/monitor.js:728:17) {
+  sql: undefined,
+  bindings: undefined
+}
+[2023-03-06 02:24:10] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (/app/node_modules/knex/lib/client.js:305:26)
+    at async Runner.ensureConnection (/app/node_modules/knex/lib/execution/runner.js:259:28)
+    at async Runner.run (/app/node_modules/knex/lib/execution/runner.js:30:19)
+    at async RedBeanNode.storeCore (/app/node_modules/redbean-node/dist/redbean-node.js:166:26)
+    at async RedBeanNode.store (/app/node_modules/redbean-node/dist/redbean-node.js:126:20)
+    at async beat (/app/server/model/monitor.js:709:13)
+    at async Timeout.safeBeat [as _onTimeout] (/app/server/model/monitor.js:728:17) {
+  sql: undefined,
+  bindings: undefined
+}
+[2023-03-06 03:10:31] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (/app/node_modules/knex/lib/client.js:305:26)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Runner.ensureConnection (/app/node_modules/knex/lib/execution/runner.js:259:28)
+    at async Runner.run (/app/node_modules/knex/lib/execution/runner.js:30:19)
+    at async RedBeanNode.find (/app/node_modules/redbean-node/dist/redbean-node.js:483:24)
+    at async UptimeKumaServer.getMaintenanceJSONList (/app/server/uptime-kuma-server.js:151:31)
+    at async UptimeKumaServer.sendMaintenanceListByUserID (/app/server/uptime-kuma-server.js:138:20) {
+  sql: undefined,
+  bindings: undefined
+}
+[2023-03-06 03:10:31] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (/app/node_modules/knex/lib/client.js:305:26)
+    at async Runner.ensureConnection (/app/node_modules/knex/lib/execution/runner.js:259:28)
+    at async Runner.run (/app/node_modules/knex/lib/execution/runner.js:30:19)
+    at async RedBeanNode.storeCore (/app/node_modules/redbean-node/dist/redbean-node.js:166:26)
+    at async RedBeanNode.store (/app/node_modules/redbean-node/dist/redbean-node.js:126:20)
+    at async beat (/app/server/model/monitor.js:709:13)
+    at async Timeout.safeBeat [as _onTimeout] (/app/server/model/monitor.js:728:17) {
+  sql: undefined,
+  bindings: undefined
+}
+[2023-03-06 03:10:53] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (/app/node_modules/knex/lib/client.js:305:26)
+    at async Runner.ensureConnection (/app/node_modules/knex/lib/execution/runner.js:259:28)
+    at async Runner.run (/app/node_modules/knex/lib/execution/runner.js:30:19)
+    at async RedBeanNode.find (/app/node_modules/redbean-node/dist/redbean-node.js:483:24)
+    at async Timeout.generateMaintenanceTimeslots [as _onTimeout] (/app/server/uptime-kuma-server.js:229:20) {
+  sql: undefined,
+  bindings: undefined
+}
+[2023-03-06 03:16:31] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (/app/node_modules/knex/lib/client.js:305:26)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Runner.ensureConnection (/app/node_modules/knex/lib/execution/runner.js:259:28)
+    at async Runner.run (/app/node_modules/knex/lib/execution/runner.js:30:19)
+    at async RedBeanNode.find (/app/node_modules/redbean-node/dist/redbean-node.js:483:24)
+    at async UptimeKumaServer.getMaintenanceJSONList (/app/server/uptime-kuma-server.js:151:31)
+    at async UptimeKumaServer.sendMaintenanceListByUserID (/app/server/uptime-kuma-server.js:138:20) {
+  sql: undefined,
+  bindings: undefined
+}
+[2023-03-06 03:16:31] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (/app/node_modules/knex/lib/client.js:305:26)
+    at async Runner.ensureConnection (/app/node_modules/knex/lib/execution/runner.js:259:28)
+    at async Runner.run (/app/node_modules/knex/lib/execution/runner.js:30:19)
+    at async RedBeanNode.storeCore (/app/node_modules/redbean-node/dist/redbean-node.js:166:26)
+    at async RedBeanNode.store (/app/node_modules/redbean-node/dist/redbean-node.js:126:20)
+    at async beat (/app/server/model/monitor.js:709:13)
+    at async Timeout.safeBeat [as _onTimeout] (/app/server/model/monitor.js:728:17) {
+  sql: undefined,
+  bindings: undefined
+}
+[2023-03-06 03:23:29] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 100, false, 1, '200 - OK', 21, 1, '2023-03-06 02:23:28.383') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:23:42] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 113, false, 3, '200 - OK', 6756, 1, '2023-03-06 02:23:34.839') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:23:45] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 109, false, 9, '200 - OK', 8, 1, '2023-03-06 02:23:44.637') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:23:52] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 75, false, 2, 'connect ECONNREFUSED 46.226.107.16:82', 0, '2023-03-06 02:23:51.831') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:23:53] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 61, false, 8, '200 - OK', 9, 1, '2023-03-06 02:23:52.129') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:23:57] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 109, false, 7, '200 - OK', 24, 1, '2023-03-06 02:23:51.981') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:23:58] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 81, false, 6, '200 - OK', 29, 1, '2023-03-06 02:23:52.013') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:23:59] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 75, false, 5, '200 - OK', 24, 1, '2023-03-06 02:23:52.163') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:24:30] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 161, false, 1, '200 - OK', 19, 1, '2023-03-06 02:24:29.416') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:24:46] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 170, false, 9, '200 - OK', 7, 1, '2023-03-06 02:24:45.660') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:24:51] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 180, false, 3, '200 - OK', 8309, 1, '2023-03-06 02:24:42.615') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:24:53] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 136, false, 2, 'connect ECONNREFUSED 46.226.107.16:82', 0, '2023-03-06 02:24:52.858') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:24:54] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 123, false, 8, '200 - OK', 6, 1, '2023-03-06 02:24:53.892') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:24:59] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 175, false, 7, '200 - OK', 15, 1, '2023-03-06 02:24:57.948') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:25:02] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 148, false, 6, '200 - OK', 19, 1, '2023-03-06 02:24:58.955') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:25:04] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 143, false, 5, '200 - OK', 17, 1, '2023-03-06 02:24:59.970') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:25:32] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 222, false, 1, '200 - OK', 778, 1, '2023-03-06 02:25:30.451') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:25:47] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 231, false, 9, '200 - OK', 15, 1, '2023-03-06 02:25:46.683') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:25:54] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 197, false, 2, 'connect ECONNREFUSED 46.226.107.16:82', 0, '2023-03-06 02:25:53.885') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:25:55] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 184, false, 8, '200 - OK', 7, 1, '2023-03-06 02:25:54.916') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:26:02] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 237, false, 7, '200 - OK', 16, 1, '2023-03-06 02:25:59.998') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:26:03] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 250, false, 3, '200 - OK', 9527, 1, '2023-03-06 02:25:51.939') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:26:05] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 211, false, 6, '200 - OK', 16, 1, '2023-03-06 02:26:02.043') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-06 03:26:07] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 207, false, 5, '200 - OK', 20, 1, '2023-03-06 02:26:04.066') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-07 03:14:07] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 60, false, 2, 'connect ECONNREFUSED 46.226.107.16:82', 0, '2023-03-07 02:14:06.593') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-07 03:14:18] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 3, '200 - OK', 250, 1, '2023-03-07 02:14:17.260') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-07 03:14:20] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 60, false, 8, 'connect ECONNREFUSED 46.226.107.16:5172', 0, '2023-03-07 02:14:19.047') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-07 03:14:21] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 60, false, 9, 'connect ECONNREFUSED 46.226.107.16:5172', 0, '2023-03-07 02:14:19.335') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-07 03:14:24] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 1, '200 - OK', 18, 1, '2023-03-07 02:14:23.406') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-08 03:14:46] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 60, false, 8, 'connect ECONNREFUSED 46.226.107.16:5172', 0, '2023-03-08 02:14:45.652') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-09 03:14:29] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 60, false, 8, 'connect ECONNREFUSED 46.226.107.16:5172', 0, '2023-03-09 02:14:28.600') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-09 03:14:31] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 7, '200 - OK', 11, 1, '2023-03-09 02:14:29.271') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-10 03:14:46] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 1, '200 - OK', 22, 1, '2023-03-10 02:14:45.431') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-10 03:14:48] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 7, '200 - OK', 17, 1, '2023-03-10 02:14:45.926') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-10 03:14:52] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 3, '200 - OK', 253, 1, '2023-03-10 02:14:51.420') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-11 03:14:40] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 60, false, 8, 'connect ECONNREFUSED 46.226.107.16:5172', 0, '2023-03-11 02:14:39.907') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-11 03:14:58] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 3, '200 - OK', 184, 1, '2023-03-11 02:14:57.390') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-12 01:02:56] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (/app/node_modules/knex/lib/client.js:305:26)
+    at async Runner.ensureConnection (/app/node_modules/knex/lib/execution/runner.js:259:28)
+    at async Runner.run (/app/node_modules/knex/lib/execution/runner.js:30:19)
+    at async RedBeanNode.storeCore (/app/node_modules/redbean-node/dist/redbean-node.js:166:26)
+    at async RedBeanNode.store (/app/node_modules/redbean-node/dist/redbean-node.js:126:20)
+    at async beat (/app/server/model/monitor.js:709:13)
+    at async Timeout.safeBeat [as _onTimeout] (/app/server/model/monitor.js:728:17) {
+  sql: undefined,
+  bindings: undefined
+}
