@@ -3075,3 +3075,71 @@
   sql: undefined,
   bindings: undefined
 }
+[2023-03-15 03:14:11] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 60, false, 2, 'connect ECONNREFUSED 46.226.107.16:82', 0, '2023-03-15 02:14:10.093') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-15 03:14:13] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 3, '200 - OK', 274, 1, '2023-03-15 02:14:11.757') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-15 03:14:17] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 60, false, 8, 'connect ECONNREFUSED 46.226.107.16:5172', 0, '2023-03-15 02:14:16.406') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-15 03:14:20] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 1, '200 - OK', 13, 1, '2023-03-15 02:14:19.435') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-17 03:14:14] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 60, false, 2, 'connect ECONNREFUSED 46.226.107.16:82', 0, '2023-03-17 02:14:12.990') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-17 03:14:16] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 7, '200 - OK', 11, 1, '2023-03-17 02:14:13.766') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-17 03:14:17] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 1, '200 - OK', 14, 1, '2023-03-17 02:14:15.075') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-17 03:14:19] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 5, '200 - OK', 16, 1, '2023-03-17 02:14:17.406') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-17 03:14:36] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 3, '200 - OK', 271, 1, '2023-03-17 02:14:35.517') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-17 03:14:39] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 60, false, 8, 'connect ECONNREFUSED 46.226.107.16:5172', 0, '2023-03-17 02:14:38.385') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-17 03:14:40] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 60, false, 9, 'connect ECONNREFUSED 46.226.107.16:5172', 0, '2023-03-17 02:14:38.443') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-18 03:14:46] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 60, false, 8, 'connect ECONNREFUSED 46.226.107.16:5172', 0, '2023-03-18 02:14:45.338') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-18 03:14:53] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `status`, `time`) values (0, 60, false, 2, 'connect ECONNREFUSED 46.226.107.16:82', 0, '2023-03-18 02:14:52.357') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-18 03:14:55] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 7, '200 - OK', 12, 1, '2023-03-18 02:14:52.782') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-18 03:14:58] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 5, '200 - OK', 22, 1, '2023-03-18 02:14:53.934') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-18 03:14:59] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 6, '200 - OK', 25, 1, '2023-03-18 02:14:54.049') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
+[2023-03-18 03:15:12] [Error: insert into `heartbeat` (`down_count`, `duration`, `important`, `monitor_id`, `msg`, `ping`, `status`, `time`) values (0, 60, false, 3, '200 - OK', 244, 1, '2023-03-18 02:15:10.990') - SQLITE_BUSY: database is locked] {
+  errno: 5,
+  code: 'SQLITE_BUSY'
+}
